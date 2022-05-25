@@ -1,0 +1,48 @@
+
+$mainClor:#3dcd58;
+$basicColor:red;
+
+
+.login {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh);
+
+    .form {
+      width: 400px;
+      z-index: 99999;
+      position: absolute;
+      border: 1px solid white;
+      border-radius:20px;
+      padding-top:20px;
+      padding-right: 50px;
+       
+      .ant-form-item-label > label {
+          color: white ;
+      }
+      .ant-checkbox-wrapper {
+        color: white ;
+    }
+    } 
+
+    // ul {
+    //     font-size: 20px;
+
+    //     li {
+    //         font-size: 16px;
+    //         height: 40px;
+    //         a {
+    //              color:$basicColor;
+    //             &:hover {
+    //                 color: $mainClor;
+    //             }
+    //         }
+        
+           
+    //     }
+    // }
+}
+
